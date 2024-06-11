@@ -52,15 +52,15 @@ welUser.innerText = userName;
                 description: description.value
             };
     
-            localStorage.setItem("Notes Data", JSON.stringify(notesData));
-            title.value = "";
-            description.value = "";
-        } else {
-            Swal.fire({
-                icon: "error",
-                title: "Oops...",
-                text: "Please Enter Title & Description!",
-            });
-        }
+            } else {
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops...",
+                    text: "Please Enter Title & Description!",
+                    });
+                    }
+                    localStorage.setItem("Notes Data", JSON.stringify(notesData));
+                    title.value = "";
+                    description.value = "";
     }
     
