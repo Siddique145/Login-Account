@@ -66,3 +66,4 @@ welUser.innerText = userName;
     }
 
 }
+addPost();
