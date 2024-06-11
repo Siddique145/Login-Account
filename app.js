@@ -96,17 +96,17 @@ function registerForm() {
         });
         return;
     }
-    if (!phoneNumber) {
+    if (!phoneNumber || phoneNumber.length < 11) {
         Swal.fire({
             icon: "error",
-            text: "Phone number should not be empty!",
+            text: "Provide Correct Phone Number!",
         });
         return;
     }
-    if (!password) {
+    if (!password ||password.length < 8 ) {
         Swal.fire({
             icon: "error",
-            text: "Password should not be empty!",
+            text: "Password should not be empty! & Not Simple",
         });
         return;
     }
