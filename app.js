@@ -137,7 +137,7 @@ function registerForm() {
     Swal.fire({
         icon: "success",
         title: `${name} successfully registered`,
-        showConfirmButton: true,
+        showConfirmButton: true,    
         timer: 5000
     }).then(() => {
         window.location.href = "./dashbord.html";

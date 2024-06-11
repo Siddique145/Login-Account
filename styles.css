@@ -78,3 +78,12 @@ p a {
 p a:hover {
     text-decoration: underline;
 }
+
+.swal2-actions {
+    width: 90% !important;
+}
+.swal2-confirm {
+    background-color: #007BFF !important;
+    width: 100% !important;
+    border-color: #007BFF !important;
+}
